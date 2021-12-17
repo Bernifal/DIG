@@ -10,9 +10,10 @@ html, body {
     flex-wrap: wrap;
     width: 200px;
     height: 200px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     margin: 0 auto;
     background: rgb(90, 65, 20);
+    border-radius: 3px;
 }
 
 .square {
@@ -26,7 +27,9 @@ html, body {
 }
 
 .apple {
-    background: green;
+    background-image: url('./images/Danburite.png');
+    background-position: 50% 50%;
+    background-size: contain;
 }
 
 .wrapper {
@@ -35,23 +38,35 @@ html, body {
 
 button {
     display: inline;
-    background: rgb(218, 66, 66);
-    border-radius: 4px;
-    padding: 10px 20px;
+    color: rgb(224, 96, 156);
+    background: rgb(135, 207, 18);
+    border-radius: 30px;
+    padding: 15px 20px;
     border: none;
     margin: 20px 0;
 }
 
 button:hover,
 button:focus {
-    background: rgb(173, 36, 36);
+    background: rgb(199, 68, 68);
+    color: rgb(135, 207, 18);;
     cursor: pointer;
-
+    border: none;
 }
+
+button:focus { outline: none; }
 
 h1,
 h2 {
     text-align: center;
     color: rgb(245, 220, 220);
     margin-bottom: 0;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#music {
+    display: none;
 }
