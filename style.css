@@ -1,0 +1,57 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background: rgb(58, 44, 2);
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 0 auto;
+    background: rgb(90, 65, 20);
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: rgb(224, 96, 156);
+    border-radius: 8px;
+}
+
+.apple {
+    background: green;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+button {
+    display: inline;
+    background: rgb(218, 66, 66);
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0;
+}
+
+button:hover,
+button:focus {
+    background: rgb(173, 36, 36);
+    cursor: pointer;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(245, 220, 220);
+    margin-bottom: 0;
+}
