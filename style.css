@@ -1,7 +1,7 @@
 html, body {
     margin: 10;
     padding: 10;
-    background: rgb(58, 44, 2);
+   background-image: radial-gradient( rgb(58, 44, 2), rgb(51, 35, 3));
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
